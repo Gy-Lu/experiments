@@ -1,0 +1,2 @@
+hostip=$(cat /etc/resolv.conf | grep -oP '(?<=nameserver\ ).*')
+echo $hostip
